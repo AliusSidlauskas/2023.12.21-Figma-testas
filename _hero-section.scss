@@ -1,0 +1,38 @@
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px auto;
+    justify-items: center;
+     
+    .hero-container{
+        display: flex;
+        padding: 90px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 100%;
+        column-gap: 20px;
+       
+        @media screen and (min-width: 650px){
+        width: 600px;}
+
+    .hero-topic{
+    font-size: 20px;
+    text-transform:uppercase;
+}
+    }
+    .main-button {
+        background-color: #647B64;
+        color:antiquewhite;
+        padding: 20px 20px;
+        width: 200px;
+    }
+    .main-button:hover{
+        background-color: rgb(150, 121, 177);}
+
+
+.tennis-image {
+   object-fit: cover;
+   max-height: 400px;
+}
+}

@@ -75,8 +75,7 @@
 .hero-section .main-button:hover {
   background-color: rgb(150, 121, 177);
 }
-
-.tennis-image {
+.hero-section .tennis-image {
   -o-object-fit: cover;
      object-fit: cover;
   max-height: 400px;
@@ -270,45 +269,40 @@ footer {
     gap: 50px;
   }
 }
-
-.Footer-main-info {
+.Awesome-footer .Footer-main-info {
   width: 350px;
 }
-.Footer-main-info .Awesome-logo {
+.Awesome-footer .Footer-main-info .Awesome-logo {
   display: flex;
 }
-.Footer-main-info .Awesome-logo .AU-name {
+.Awesome-footer .Footer-main-info .Awesome-logo .AU-name {
   color: #647B64;
   padding: 5px;
 }
-.Footer-main-info .Awesome-soc-links {
+.Awesome-footer .Footer-main-info .Awesome-soc-links {
   display: flex;
   gap: 20px;
 }
-.Footer-main-info .Awesome-soc-links .logo:hover {
+.Awesome-footer .Footer-main-info .Awesome-soc-links .logo:hover {
   background-color: beige;
   border-radius: 40px;
 }
-
-ul {
+.Awesome-footer ul {
   color: #647B64;
 }
-
-li:first-of-type {
+.Awesome-footer li:first-of-type {
   margin-top: 20px;
 }
-
-li {
+.Awesome-footer li {
   padding: 10px 0;
   color: black;
   list-style-type: none;
 }
-
-.Awesome-message {
+.Awesome-footer .Awesome-message {
   display: flex;
   flex-direction: column;
 }
-.Awesome-message .Message {
+.Awesome-footer .Awesome-message .Message {
   color: #647B64;
   font-size: 20px;
   text-transform: uppercase;
@@ -316,11 +310,11 @@ li {
   margin-bottom: 12px;
   font-weight: 500;
 }
-.Awesome-message .message-box {
+.Awesome-footer .Awesome-message .message-box {
   width: 283px;
   height: 113px;
 }
-.Awesome-message .aw-button {
+.Awesome-footer .Awesome-message .aw-button {
   width: 283px;
   height: 56px;
   color: white;
@@ -328,6 +322,6 @@ li {
   background-color: #647B64;
   text-transform: uppercase;
 }
-.Awesome-message .aw-button:hover {
+.Awesome-footer .Awesome-message .aw-button:hover {
   background-color: rgb(150, 121, 177);
 }/*# sourceMappingURL=style.css.map */

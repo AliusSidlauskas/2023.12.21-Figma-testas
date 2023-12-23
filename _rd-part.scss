@@ -1,0 +1,37 @@
+.rd-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px;
+    gap: 50px;
+
+    .rd-part-img {
+        width: 563px;
+    }
+
+    .rd-part-introduction {display: flex;
+        flex-direction: column;
+        align-items:s;
+        flex-wrap: wrap;
+        margin-top: auto;
+        margin-bottom: auto;
+
+    .rd-part-topic {
+        font-size: 20px;text-transform:uppercase;
+        color: rgb(190, 157, 117);
+     }   
+     .rd-part-greeting {
+        font-size: 30px;
+        color: #647B64;
+        text-transform: uppercase;
+     }
+     
+        .main-button {
+            background-color: #647B64;
+            color:antiquewhite;
+            padding: 20px 20px;
+            width: 200px;      
+    }
+    .main-button:hover{
+        background-color: rgb(150, 121, 177);}
+}
+}

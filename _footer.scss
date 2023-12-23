@@ -1,0 +1,95 @@
+footer {
+    width: 1440px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+
+
+.Awesome-footer {
+    
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 2fr;
+    justify-items: center;
+    padding: 70px;
+
+    @media screen and (max-width: 900px){  
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 700px;
+        padding: 50px 0;
+        margin: auto; 
+        justify-content: center;
+        gap: 50px;}
+
+        @media screen and (max-width: 500px){  
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 400px;
+            padding: 50px 0;
+            margin: auto; 
+            justify-content: center;
+            gap: 50px;}
+
+  
+    .Footer-main-info {
+        width: 350px;
+        .Awesome-logo {
+            display: flex;;
+            .AU-name {
+                color: #647B64;
+                padding: 5px;
+            }
+        }
+        .Awesome-soc-links {
+            display: flex;
+            gap: 20px;
+
+            .logo:hover{
+                background-color: beige;
+                border-radius: 40px;
+            }
+        }
+    }
+    ul { 
+        color: #647B64;
+    }
+    li:first-of-type{
+        margin-top: 20px;
+    }
+    li {
+        padding: 10px 0;
+        color: black;
+        list-style-type: none;
+    }
+    .Awesome-message{display: flex;
+        flex-direction: column;
+       
+        .Message {
+            color: #647B64;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-top: 12px;
+            margin-bottom: 12px;
+            font-weight: 500;
+        }
+         .message-box {
+            width: 283px;
+            height: 113px;
+         }  
+         .aw-button {
+           width: 283px;
+           height: 56px;
+           color:white;
+           margin-top: 15px;
+           background-color: #647B64;
+           text-transform: uppercase;
+         } 
+           .aw-button:hover{
+            background-color: rgb(150, 121, 177);
+           }
+        
+    }
+}
+}

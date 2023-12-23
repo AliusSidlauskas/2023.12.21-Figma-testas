@@ -1,0 +1,27 @@
+.th-part {
+    padding: 70px;
+
+    .th-part-intoduction {
+        display: flex;
+        justify-content:space-between;
+        .th-part-topic {
+            font-size: 20px;text-transform:uppercase;
+            color: rgb(190, 157, 117);
+         }   
+         .th-part-greeting {
+            font-size: 30px;
+            color: #647B64;
+            text-transform: uppercase;
+         }
+    }
+    .th-part-persons {display: flex;
+        flex-wrap: nowrap;
+        overflow:hidden;
+        margin-right: 0;
+        .person-image {
+            width: 360px;
+            height: 419px;
+            padding: 0 30px 0 0;    
+        }
+    }
+}
